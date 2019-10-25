@@ -25,6 +25,16 @@ a:hover {
     color: orange;
 }
 
+p.teaser {
+  font-size: 13px;
+}
+
+.teaser a {
+  color: #999999;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .show-column1 {
     background: #e5e5e5;
 }
