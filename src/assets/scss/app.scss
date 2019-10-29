@@ -1,6 +1,6 @@
 @import 'settings';
 @import 'foundation-emails';
-
+@import 'e2a';
 
 
 a[x-apple-data-detectors] {
@@ -26,7 +26,7 @@ a:hover {
 }
 
 p.teaser {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .teaser a {
@@ -104,6 +104,16 @@ h1 {
 .callout-card p {
   font-size: 14px;
 }
+
+p.alert {
+  font-size: 12px;
+}
+
+.banner-content {
+  background: #0fb3e0;
+}
+
+
 
 img.img-hero {
   width: 650px;
