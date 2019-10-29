@@ -401,8 +401,15 @@ table.menu.vertical th.menu-item {
   table.menu[align="center"] {
     width: auto !important; } }
 
-h1 {
-  color: #0fb3e0; }
+.headline h1 {
+  color: #0083c0;
+  font-size: 20px; }
+
+div.ruleline {
+  width: 100px;
+  height: 2px;
+  background: #0083c0;
+  margin: 0 auto; }
 
 td {
   hyphens: none;
@@ -474,12 +481,6 @@ h1 {
 
 img.img-hero {
   width: 650px; }
-
-div.ruleline {
-  width: 100px;
-  height: 2px;
-  background: #999999;
-  margin: 0 auto; }
 
 .callout-card h2,
 .callout-card p {
