@@ -1,6 +1,6 @@
 ---
 layout: default
-subject: This is the subject line
+subject: Icon base template
 description: hidden preview line
 ---
 
@@ -8,11 +8,13 @@ description: hidden preview line
 <container>
   <row>
     <columns large="5" small="12">
-      <img src="http://via.placeholder.com/200x50?text=logo" class="small-float-center" alt="NordicTrack logo">
+      <spacer size="15"></spacer>
+      <img src="https://www.nordictrack.com/cdn/email/emailHeader/black_ntlogo.jpg" xt="SPCLICK"
+        class="small-float-center primary-logo" alt="NordicTrack logo" width="217">
     </columns>
     <columns large="7" small="12">
-      <spacer size="10"></spacer>
-      <p class="teaser text-right">
+      <spacer size="15"></spacer>
+      <p class="teaser text-right small-text-center">
         Don't miss this opportunity to protect your equipment<br>
         <a href="#" target="_blank" rel="noopener noreferrer">View in browser</a>
       </p>
@@ -20,7 +22,7 @@ description: hidden preview line
   </row>
   <row class="collapse">
     <columns small="12" noexpander>
-      <img src="http://via.placeholder.com/600x300?text=hero" alt="">
+      <img src="http://via.placeholder.com/650x300?text=hero" alt="">
     </columns>
   </row>
   <row>
@@ -66,7 +68,8 @@ description: hidden preview line
   <row>
     <columns small="12" large="6">
       <div class="callout-card">
-        <div class="img-wrapper"><img src="{{root}}assets/img/tune-up.png" class="small-float-center" alt="Need a tune up?"></div>
+        <div class="img-wrapper"><img src="{{root}}assets/img/tune-up.png" class="small-float-center cta-icon"
+            alt="Need a tune up?"></div>
         <spacer size="10"></spacer>
         <h2>20% OFF</h2>
         <h3>TUNE-UPS</h3>
@@ -83,7 +86,8 @@ description: hidden preview line
     </columns>
     <columns small="12" large="6">
       <div class="callout-card">
-        <div class="img-wrapper"><img src="{{root}}assets/img/repair.png" class="small-float-center" alt="Need a repair?"></div>
+        <div class="img-wrapper"><img src="{{root}}assets/img/repair.png" class="small-float-center cta-icon"
+            alt="Need a repair?"></div>
         <spacer size="10"></spacer>
         <h2>40% OFF</h2>
         <h3>REPLACEMENT PARTS</h3>
@@ -100,7 +104,9 @@ description: hidden preview line
     </columns>
   </row>
   <row>
-    <columns>%%DC::Brand::Footer%%</columns>
+    <columns>
+      <div class="small-text-center">%%DC::Brand::Footer%%</div>
+    </columns>
   </row>
 
 </container>
