@@ -162,6 +162,17 @@ th.large-8 {
 th.large-8.last {
   padding-right: 16px; }
 
+th.large-9 {
+  width: 471.5px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-9.first {
+  padding-left: 16px; }
+
+th.large-9 center {
+  min-width: 439.5px; }
+
 th.large-10 {
   width: 525.66667px;
   padding-left: 8px;
@@ -232,6 +243,13 @@ th.float-center {
   Margin: 0 auto;
   float: none;
   text-align: center; }
+
+@media only screen and (max-width: 666px) {
+  table.body table.container .show-for-large {
+    display: none !important;
+    width: 0;
+    mso-hide: all;
+    overflow: hidden; } }
 
 body,
 table.body,
